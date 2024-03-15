@@ -185,7 +185,7 @@ public class Application {
             int no = sc.nextInt();
 
             switch (no) {
-                case 1 : menuService.searchMenuBySupCategory(inputSupCategory()); break;
+                case 1 : menuService.searchMenuBySupCategory(inputSubCategory()); break;
                 case 9 : return;
             }
 
@@ -193,7 +193,7 @@ public class Application {
 
     }
 
-    private static SearchCriteria inputSupCategory() {
+    private static SearchCriteria inputSubCategory() {
 
         Scanner sc = new Scanner(System.in);
         System.out.print("상위 분류를 입력해주세요(식사, 음료, 디저트) : ");
