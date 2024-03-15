@@ -12,7 +12,7 @@ public class Application {
         Scanner sc = new Scanner(System.in);
 
         do {
-            System.out.println("=============== 마이바티스 동적 SQL =============");
+            System.out.println("=============== 마이바티스 동적 SQL ==============");
             System.out.println("1. if 확인하기");
             System.out.println("2. choose(when, otherwise) 확인하기");
             System.out.println("3. foreach 확인하기");
@@ -249,3 +249,11 @@ public class Application {
     }
 
 }
+
+
+
+
+
+
+
+
